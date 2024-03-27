@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func StartApp() *gin.Engine {
+func StartApp() *gin.Engin {
 	r := gin.Default()
 	docs.SwaggerInfo.BasePath = "/"
 
