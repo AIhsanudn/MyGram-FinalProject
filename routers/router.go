@@ -5,22 +5,8 @@ import (
 	"mygram/middlewares"
 
 	"github.com/gin-gonic/gin"
-	"github.com/swaggo/swag/example/basic/docs"
 )
 
-// @title           mygram API - Fahreza
-// @version         0.0.1
-// @description     API endpoints for mygram
-
-// @contact.email  thefahre@gmail.com
-
-// @host      localhost:8080
-// @BasePath  /
-
-// @securityDefinitions.apikey Bearer
-// @in header
-// @name Authorization
-// @description Type "Bearer" (CASE SENSITIVE!) followed by a space and JWT token. Token is obtained from login.
 func StartApp() *gin.Engine {
 	r := gin.Default()
 	docs.SwaggerInfo.BasePath = "/"
