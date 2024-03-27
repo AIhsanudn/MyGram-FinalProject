@@ -9,7 +9,6 @@ import (
 
 func StartApp() *gin.Engine {
 	r := gin.Default()
-	docs.SwaggerInfo.BasePath = "/"
 
 	userRouter := r.Group("/users")
 	{
