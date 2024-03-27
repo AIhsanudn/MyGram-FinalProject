@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"ihsanProject/database"
+	"mygram/database"
 	"mygram/helpers"
 	"mygram/models"
 	"net/http"
